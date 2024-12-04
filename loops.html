@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            border: 3px solid black;
+            background-color: darkturquoise;
+        }
+        h1{
+            background-color: lightgreen ;
+            text-shadow:3px 3px 4px black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: coral;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>LOOPS</h1>
+    <p id="para1"></p>
+    <script>
+        var games=[1, ' football ',2,' basketball ',3,' cricket ',4,' volleyball ',5,' pickleball ',6,' tennis'];
+        var text="";
+        var i;
+        for (i=0;i<games.length;i++)
+        {
+            text+=games[i];
+        }
+        document.getElementById('para1').innerHTML=text;
+    </script>
+</body>
+</html>
