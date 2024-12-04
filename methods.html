@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: goldenrod;
+        }
+        h1{
+            color: bisque;
+            text-shadow: 2px 2px 3px black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+       
+    </style>
+</head>
+<body>
+    <center><h1>JS METHODS</h1>
+    <script>
+        var str="Suyog"
+        document.write(str.toUpperCase());
+        document.write("<br>");
+        document.write("<br>");
+        document.write(str.toLowerCase());
+        document.write("<br>");
+        document.write("<br>");
+        document.write(str.startsWith('S'));
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+
+
+        var str1="I like to play video games and outdoor games...";
+        var part=new RegExp("Play");
+        var result=part.test(str1);
+        document.write(result);
+    
+    </script></center>
+</body>
+</html>
